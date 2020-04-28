@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="../css/style.css"type="text/css" />
+<script language="JavaScript">
+function check(){
+if(document.form1.name.value==""){
+alert("用户名不能为空！");
+document.form1.name.value.focus();
+return false;
+}
+if(document.form1.pw.value==""){
+alert("密码不能为空！");
+document.form1.pw.value.focus();
+return false;
+}
+else
+if(document.form1.pw.value!=document.form1.repw.value){
+alert("两次输入的密码不一致！");
+document.form1.repw.focus();
+return false;
+}}
+</script>
+<body>
+<div class="htmleaf-container">
+    <div id="wrapper" class="login-page">
+      <div id="login_form" class="form">
+		<form method="post"action="../php/register2.php"name="form1"onsubmit="return check()">
+		<label>用户名:<input type="text" name="name"></label>
+		<br/><br/>
+		<label>密码:<input type="password" name="pw"></label>
+		<br/><br/>
+		<label>确认密码:<input type="password" name="repw"></label>
+		<button type="submit" name="submit">注册</button>
+		<p class="message">已经有了一个账户? <a href="login1.html">立刻登录</a></p>
+		</form>
+	   </div>
+    </div>
+</div>
+</body>

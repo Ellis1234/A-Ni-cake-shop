@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <script type="text/javascript" src="../res/layui/layui.js"></script>
+  <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../res/static/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/example1.css">
+</head>
+<body>
+  <div class="header_box">
+    <div class="header">  
+      <ul class="app-header">
+        <li class="app-header-menuicon">
+           <i class="layui-icon layui-icon-more-vertical"></i>
+        </li>
+      </ul>
+      <h1 class="logo">
+        <a href="#">阿妮蛋糕店</a>
+      </h1>
+      <div class="nav"  style="visibility: visible">
+        <a href="index.html" class="active">首页</a>
+        <a href="case.html">案例</a>
+        <a href="service.html">服务</a>
+        <a href="about.html"  class="active">关于</a>
+      </div>  
+      <ul class="layui-nav header-down-nav">
+        <li class="layui-nav-item"><a href="index.html">首页</a></li>
+        <li class="layui-nav-item"><a href="case.html">案例</a></li>
+        <li class="layui-nav-item"><a href="service.html">服务</a></li>
+        <li class="layui-nav-item"><a href="about.html" class="active">关于</a></li>
+      </ul> 
+    </div>
+  </div>
+    <div class="content">
+      <div class="title">
+        <h5>欢迎您的到来</h5>
+        <h3>尝在口中,甜在心里</h3>
+        <h4>Taste in the mouth, sweet in my heart</h4>
+      </div>
+  <div class="container">
+    <div id="slides">
+      <img src="../images/timg (1).jpg">
+      <img src="../images/timg (2).jpg">
+      <img src="../images/timg (3).jpg">
+      <img src="../images/timg (4).jpg">
+      <img src="../images/timg (5).jpg">
+    </div>
+  </div>
+    <script src="../js/jquery.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="../js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 540,			//���
+        height: 528,		//�߶�
+        play: {				// ��������
+          active: true,		//���Ű�ť	�Ƿ���Ч
+          auto: true,		//�Ƿ��Զ�����
+          interval: 1000,  // �Զ����ŵ�ʱ����Ϊ4s
+          swap: true		//�Ƿ�ѭ������
+        }
+      });
+    });
+  </script>
+      <div class="prod-show">
+        <div class="layui-fluid">
+          <div class="row layui-col-space12 layui-clear">
+            <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+              <div class="img-txt">
+                <img style="width: 100%;" src="../res/static/images/sy_img1.jpg" alt="">
+                <h3>食品包装</h3>
+              </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+              <div class="img-txt">
+                <img style="width: 100%;" src="../res/static/images/sy_img2.jpg" alt="">
+                <h3>食品包装</h3>
+              </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+              <div class="img-txt">
+                <img style="width: 100%;" src="../res/static/images/sy_img3.jpg" alt="">
+                <h3>食品包装</h3>
+              </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+              <div class="img-txt">
+                <img style="width: 100%;" src="../res/static/images/sy_img4.jpg" alt="">
+                <h3>食品包装</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="prod-descr">
+        <div class="layui-fluid">
+          <div class="layui-row">
+            <div class="item layui-clear">
+              <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+                <img src="../res/static/images/浅草.jpg" class="left-img">
+              </div>
+              <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+                <div class="text">
+                  <h3>浅草</h3>
+                  <p>“浅草才能没马蹄”切着吃的雨前西湖龙井中国绿茶与爽脆果实，工笔勾勒一杯好茶复杂而纯粹的深浅绿意
+
+“喝茶，喝很贵的那种茶，
+
+本质上是一种追寻inner peace 的行为”
+
+三层济州岛抹茶粉烤制的戚风坯，
+
+留白出回甘的节奏、空间，
+
+一口下去，草木山水荡漾回旋，
+
+仿佛置身北纬30度茶乡，云雾缭绕的风土。
+
+”</p>
+                  <a href="details.html">查看更多 ></a>
+                </div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm12 layui-col-md8 bot-img-box">
+                <div class="bot-img"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="layui-row">
+            <div class="item layui-clear">
+              <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+                <img src="../res/static/images/栗蓉暗香.jpg" class="left-img">
+              </div>
+              <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+                <div class="text">
+                  <h3>栗蓉暗香</h3>
+                  <p>与父母边吃边聊，
+
+手捧保温杯、自觉沧桑的城市中青年，
+
+也可以尝试用它搭配热开水，平复中年危机与内心创伤。
+
+将栗泥挤出童趣十足的造型，
+
+让人想起火炉旁打毛衣的祖母，
+
+被猫弄乱的毛线球。
+
+推盘栗子炒深黄，
+
+客到长谈索酒尝。
+
+寒火三更灯半灺（xie）,
+
+门前高喊「灌香糖」。
+
+”</p>
+                  <a href="details.html">查看更多 ></a>
+                </div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm12 layui-col-md8 bot-img-box">
+                <div class="bot-img"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="layui-row">
+            <div class="item layui-clear">
+              <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+                <img src="../res/static/images/榴莲飘飘.jpg" class="left-img">
+              </div>
+              <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+                <div class="text">
+                  <h3>榴莲飘飘</h3>
+                  <p>自然成熟的泰国榴莲，
+
+在曼谷，官兵后代庭院中，
+
+生长着一百年至一百五十年的榴莲树。
+
+榴莲是一种野兽，浓郁，混沌，复杂，生猛，一口下去，兵荒马乱，直接把欲望打回原始形态。
+
+”
+
+
+吃多了榴莲，会有灼热感，但雪白的造型增加了这种平衡感，让一口下去的榴莲带来的灼热感慢慢恢复平静。这款榴莲飘飘比精品水果超市的榴莲还好吃。</p>
+                  <a href="details.html">查看更多 ></a>
+                </div>
+              </div>
+              <div class="layui-col-xs12 layui-col-sm12 layui-col-md8 bot-img-box">
+                <div class="bot-img"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Partner">
+        <div class="title">
+          <h3>合作伙伴</h3>
+          <h4>cooperative partner</h4>
+        </div>
+        <div class="cont-box">
+          <div class="layui-fluid">
+            <div class="row layui-col-space20">
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2"> 
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+              <div class="layui-col-xs6 layui-col-sm6 layui-col-md2">
+                <h2>LOGO</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="footer">
+    <div class="line"></div>
+    <p class="copyright">
+      @2018 More Templates <a href="#">松田学院</a> - Collect from <a href="#">JQ大作业</a><br />
+      E-MAIL:66666666@162.com<br />
+      TEL:400-888-888
+    </p>
+    <div class="icon_box">
+      <a href="#"><i class="layui-icon layui-icon-login-wechat weixin-icon"></i></a>
+      <a href="#"><i class="layui-icon layui-icon-login-weibo weibo-icon"></i></a>
+    </div>
+  </div>
+  <script>
+  layui.use(['carousel','jquery','element'],function(){
+    var carousel = layui.carousel,$ = layui.$;
+    carousel.render({
+      elem: '#test1'
+      ,width: '100%' //设置容器宽度
+      ,arrow: 'always'
+      ,height:'auto'
+    });
+    $('.app-header-menuicon').on('click',function(){
+      $('.header-down-nav').toggleClass('down-nav')
+    })
+    var imgH = $('.imgbox div.layui-this').outerHeight();
+    $('.imgH').css('height',imgH+'px')
+    window.onresize = function () {
+      var imgH = $('.imgbox div.layui-this').outerHeight();
+      $('.imgH').css('height',imgH+'px')
+    };
+
+  });
+  </script>
+</body>
+</html>
